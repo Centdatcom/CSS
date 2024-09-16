@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create new account.</h1>
+        <p>Already have an account? <a href="#">Log in</a></p>
+        <form>
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter First Name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter Last Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <br>
+            <div class="btns"> 
+            <button class="btn1" type="submit">Change method</button>
+            <button class="btn2 "type="submit">Create account</button>
+            </div>
+            <p class="terms">By clicking "Create account" I accept the <u>Terms of Service</u>, The <u>Anti Spam Policy</u>, and the <u>Privacy Policy Accesibility Info.</u>
+            <br>
+            <p class="or">Or sign up with</p>
+            <div class="logo">
+            <a href="https://accounts.google.com/signin/v2/identifier"><img src="google_logo.jpg" width="60" height="60" class="image"></a>
+            <a href="https://www.facebook.com/login"><img src="facebook_logo.jpg" width="60" height="60" class="image"></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
